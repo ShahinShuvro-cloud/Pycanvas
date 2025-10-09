@@ -20,4 +20,3 @@ y_pred=pac.predict(tfidf_test)
 score=accuracy_score(y_test,y_pred)
 print(f'Accuracy: {round(score*100,2)}%')
 confusion_matrix(y_test,y_pred, labels=['FAKE','REAL'])
-delete unnecessary files
